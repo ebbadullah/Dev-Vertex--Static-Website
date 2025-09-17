@@ -5,10 +5,10 @@ import servicesSlice from "./services/servicesSlice"
 import uiSlice from "./ui/uiSlice"
 
 export const store = configureStore({
-  reducer: {
-    auth: authSlice,
-    blog: blogSlice,
-    services: servicesSlice,
-    ui: uiSlice,
-  },
+    reducer: {
+        auth: authSlice,
+        blog: blogSlice,
+        services: servicesSlice,
+        ui: uiSlice,
+    },
 })

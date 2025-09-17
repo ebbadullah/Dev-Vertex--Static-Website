@@ -14,22 +14,22 @@ import ProjectDetails from "../pages/Project/component/ProjectDetails"
 import Pricing from "../pages/Pricing/Pricing"
 
 const AppRoutes = () => {
-  return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/services" element={<Services />} />
-      <Route path="/services/web-development" element={<WebDevelopment />} />
-      <Route path="/services/hr" element={<HumanResources />} />
-      <Route path="/services/fullstack" element={<FullStack />} />
-      <Route path="/projects" element={<Projects/>} />
-      <Route path="/project/:id" element={<ProjectDetails />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/:id" element={<BlogDetail />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/pricing" element={<Pricing />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
-  )
+    return (
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/services/web-development" element={<WebDevelopment />} />
+            <Route path="/services/hr" element={<HumanResources />} />
+            <Route path="/services/fullstack" element={<FullStack />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/project/:id" element={<ProjectDetails />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:id" element={<BlogDetail />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/contact" element={<Contact />} />
+        </Routes>
+    )
 }
 
 export default AppRoutes
